@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    /* background-color: aqua; */
+    height:350px;
+    width: 25%;
+}
+.right{
+    float: right;
+    /* background-color: rgb(184, 19, 129); */
+    height:350px;
+    width: 25%;
+}
+.leftright{
+    float:left;
+    /* background-color: rgb(187, 245, 26); */
+    height:350px;
+    width: 25%;
+}
+.rightleft{
+    float: left;
+    /* background-color: rgb(235, 131, 57); */
+    height:350px;
+    width: 25%;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+   
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #f16666;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(118, 204, 247);
+    display: none;
+    overflow: hidden;
+  }
+  .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }
+
+  .terms{
+    background-color: #1f1b1b;
+    text-align: start;
+    /* margin-right: -150px; */
+  width: 100%;
+    color: white;
+  }
+  .cond{
+    color:gold;
+  }
+  /* .condition h1{
+    color: white;
+   
+  } */
+  .hg{
+    background-color:rgb(102, 98, 66);
+    height: auto;
+    width: 100%;
+    float: left;
+    text-align: start;
+    margin-top: -322px;
+   
+  }
+  .hg h3{
+    margin-left: 35px;
+    font-weight: lighter;
+  }
+ .symbol{
+    /* color: rgb(184, 8, 134); */
+    font-weight: 900;
+ }
+ .space9{
+    color:rgb(102, 98, 66);
+ }

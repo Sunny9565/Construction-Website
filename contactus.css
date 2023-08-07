@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    text-align: center;
+    position: relative;
+
+}
+.contact img{
+    height: 500px;
+    width: 100%;
+}
+.nav{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    text-decoration: none;
+    margin-top: -40px;
+    
+}
+.nav  ul li a{
+    color:whitesmoke;
+    float: left;
+    text-decoration: none;
+    padding: 12px 14px;
+    
+}
+.nav  ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+    
+}
+.nav  ul li {
+    color: whitesmoke;
+    line-height: 80px;
+    margin: 05px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    
+    
+   
+}
+.cont{
+   display: flex;
+    color:whitesmoke;
+   
+    margin-top: 80px;
+}
+
+span{
+    color: gold;
+}
+
+.leftpart{
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: #f3e3e6;
+    height: 400px;
+}
+.leftpart img{
+    width: 80%;
+    margin-left: 20px;
+   margin-top: 35px;
+   margin-right: 20px;
+    height: 350px;
+}
+.rightpart{
+    width: 50%;
+    float: right;
+    text-align: center;
+    background-color: #f3e3e6;
+    height: 400px;
+
+
+}
+.main{
+    color: gold;
+}
+.leftpart1{
+    width: 50%;
+    float:left;
+    text-align: center;
+    background-color: #f3e3e6;
+    height: 400px;
+
+
+}
+.contactbox{
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 25px;
+    color: white;
+    background: #0c0303;
+    height: 300px;
+}
+
+.fa-phone-volume{
+    color: white;
+  text-align: left;
+   font-size: 45px;
+   float: left;
+   margin-left: 55px;
+}
+.fa-phone-volume:hover{
+    color: hotpink;
+}
+.fa-envelope{
+    color: white;
+  text-align: left;
+   font-size: 45px;
+   float: left;
+   margin-left: 65px;
+}
+.fa-envelope:hover{
+   color: #ea1538;
+   transition: .3s;
+
+}
+.fa-location-dot{
+    color: white;
+    text-align: left;
+     font-size: 45px;
+     float: left;
+   margin-left: 65px;
+ }
+  .abc5{
+    color: whitesmoke;
+    font: 355px;
+ }
+ .fa-location-dot:hover{
+     color: #72095b;
+     transition: .3s;
+ }
+
+.rightpart1{
+    width: 50%;
+    float: right;
+    text-align: center;
+    background-color: #f3e3e6;
+    height: 400px;
+
+
+}
+
